@@ -24,7 +24,7 @@ public:
         {
             if (j.first != 0)
                 ans += ((j.second) * (j.second - 1)) / 2;
-            else if (j.first == 0 || (k % 2 == 0 && j.first == k / 2))
+            else if (j.first == 0)
                 ans += ((j.second) * (j.second + 1)) / 2;
         }
 
